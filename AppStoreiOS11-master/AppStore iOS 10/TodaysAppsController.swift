@@ -39,8 +39,9 @@ class TodaysAppsController: DatasourceController  {
         
 //        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"123", appPhoto: "stream_rail_icon", screenShots: [""])
         let deptDetailVC = DepartmentViewController()
-        
-        deptDetailVC.departmentData = DataManager.sharedInstance.getDepartment(name: "brandSolutions")
+        if let name = app!.appStory {
+            deptDetailVC.departmentData = DataManager.sharedInstance.getDepartment(name: name)
+        }
         
         let items = ["angry","war", "clan"]
         var apps: [App] = [App]()
@@ -64,7 +65,7 @@ class TodaysAppsController: DatasourceController  {
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        setSelectedApp(app: nil)
+        setSelectedApp(app: (self.datasource?.item(indexPath) as? TodayArticle)?.app)
     }
     
 

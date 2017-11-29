@@ -59,6 +59,11 @@ class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UIC
             collectionView.setCollectionViewLayout(layout, animated: true)
         }
         
+        if let dict = self.departmentData?.data {
+            var name = dict["title"] as! String
+            print("\(name) itai")
+        }
+        
         collectionView.showsVerticalScrollIndicator = false
         collectionView.delegate = self
         collectionView.dataSource = self

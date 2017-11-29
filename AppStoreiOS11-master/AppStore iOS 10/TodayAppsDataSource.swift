@@ -39,10 +39,10 @@ class TodayAppsDataSource: Datasource {
     static var dummyData : [TodayArticle] = {
         
         //Brand
-        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"123", appPhoto: "stream_rail_icon", screenShots: [""])
+        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"brandSolutions", appPhoto: "stream_rail_icon", screenShots: [""])
         
         //Mobile
-        let app2 = App(appName: "Developer Solutions", appDesc: "One Mobile Platform to Rule Them All", appID: 2, appCategory: "Social Networking", appPrice: 0, appStory:"123", appPhoto: "dev_solutions_card", screenShots: [""])
+        let app2 = App(appName: "Developer Solutions", appDesc: "One Mobile Platform to Rule Them All", appID: 2, appCategory: "Social Networking", appPrice: 0, appStory:"mobile", appPhoto: "dev_solutions_card", screenShots: [""])
 
         //Install core
         let app3 = App(appName: "Display Solutions", appDesc: "Edit and Share your photos", appID: 3, appCategory: "Social Networking", appPrice: 0, appStory:"123", appPhoto: "dev_solutions_card", screenShots: [""])

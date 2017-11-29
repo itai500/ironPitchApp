@@ -9,9 +9,16 @@
 import Foundation
 
 struct Department {
-    var data: (String, Any)?
+    var data: Dictionary<String, Any>
 
     init() {
-        
+        data = [:]
     }
+
+    /*
+     if let dict = self.departmentData?.data {
+     var name = dict["title"] as! String
+     print("\(name) itai")
+     }
+     */
 }
