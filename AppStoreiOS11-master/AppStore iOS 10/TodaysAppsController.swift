@@ -103,7 +103,7 @@ class TodaysAppsController: DatasourceController  {
         if(kind == UICollectionElementKindSectionHeader){
             header = (collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: NSStringFromClass(GeneralHeaderCell.self), for: indexPath) as? GeneralHeaderCell)!
             
-            let headerItem = HeaderItem(smallTitle: "Monday, June 5".uppercased(), bigTitle: "Today", hideDiv: true)
+            let headerItem = HeaderItem(smallTitle: "ironPitch, V1.9".uppercased(), bigTitle: "IS Products", hideDiv: true)
             header.headerItem = headerItem
             //header.hideDivider()
             

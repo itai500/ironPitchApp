@@ -228,6 +228,9 @@ class AppDetailViewController: UIViewController , UICollectionViewDelegate, UICo
         print("FIRST HEADER HEIGHT \(maxHeight)")
         self.headerHeightConstant = self.maxHeight
         
+        Service.sharedInstance.getIronSourceData(completed:{ (apps) in
+            print("Itai")
+        })
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {

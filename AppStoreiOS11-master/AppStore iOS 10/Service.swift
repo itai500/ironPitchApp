@@ -116,4 +116,34 @@ class Service: NSObject {
         }
     }
     
+    public func getIronSourceData(completed: @escaping Completed) {
+        //print("PERFORMING SEARCH: \(searchTerm) at URL: \(getSearchURLForQuery(query: searchTerm))")
+        var apps = [App]()
+        Alamofire.request("https://ssastatic.s3.amazonaws.com/test/hackaton2017/pitchapp/json/hackathon.json").responseJSON { response in
+            
+            //print(response.result.value)
+            
+            if let result  = response.result.value as? Dictionary<String, Any> {
+                
+                if let mainDict = result["content"] as? [Dictionary<String, Any>]{
+                    if !mainDict.isEmpty{
+                        for article in mainDict{
+                            var app = App()
+                            app.appName = article["title"] as! String!
+                            app.appDesc = article["developer"] as! String!
+                            app.appPhoto = article["icon"] as! String!
+                            app.appID = article["id"] as! Int!
+                            app.appCategory = article["price"] as! String!
+                            app.appRating = article["rating"] as! Double
+                            apps.append(app)
+                        }
+                        
+                    }
+                }
+            }
+            
+            completed(apps)
+        }
+    }
+    
 }
