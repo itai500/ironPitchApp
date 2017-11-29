@@ -16,6 +16,10 @@
 		1E686AEE1FCF005900E01496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E686AED1FCF005900E01496 /* main.m */; };
 		1E686AF81FCF005900E01496 /* ironPitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E686AF71FCF005900E01496 /* ironPitchTests.m */; };
 		1E686B031FCF005900E01496 /* ironPitchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E686B021FCF005900E01496 /* ironPitchUITests.m */; };
+		1EE726481FCF0D7A001DC3C8 /* ISDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EE726471FCF0D7A001DC3C8 /* ISDataManager.m */; };
+		730ED6A946A24332D8522281 /* libPods-ironPitchTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C36E3F6EFB72011B66CFDE14 /* libPods-ironPitchTests.a */; };
+		AA41303075ACC8AEC7C52EED /* libPods-ironPitchUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 642B719191CE98951FB1B5AC /* libPods-ironPitchUITests.a */; };
+		F641412E2466F04BE1E2CEA2 /* libPods-ironPitch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B459CC83F2AF142E1A86B710 /* libPods-ironPitch.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,17 @@
 		1E686AFE1FCF005900E01496 /* ironPitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ironPitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E686B021FCF005900E01496 /* ironPitchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ironPitchUITests.m; sourceTree = "<group>"; };
 		1E686B041FCF005900E01496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EE726461FCF0D7A001DC3C8 /* ISDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISDataManager.h; sourceTree = "<group>"; };
+		1EE726471FCF0D7A001DC3C8 /* ISDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISDataManager.m; sourceTree = "<group>"; };
+		2F590D13F5BDDBF1F2B7C1F0 /* Pods-ironPitchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitchUITests/Pods-ironPitchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		585D7BB6871575CB3FE04DAA /* Pods-ironPitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch.debug.xcconfig"; sourceTree = "<group>"; };
+		642B719191CE98951FB1B5AC /* libPods-ironPitchUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ironPitchUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E4D885C6AB9A0C7257B61C3 /* Pods-ironPitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch.release.xcconfig"; sourceTree = "<group>"; };
+		A2D5C0316CD1F03CEE4E30C5 /* Pods-ironPitchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitchTests/Pods-ironPitchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B459CC83F2AF142E1A86B710 /* libPods-ironPitch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ironPitch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78F36C3E6E87EF797E98701 /* Pods-ironPitchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitchUITests/Pods-ironPitchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C36E3F6EFB72011B66CFDE14 /* libPods-ironPitchTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ironPitchTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7621EF7B309032CB0D09259 /* Pods-ironPitchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitchTests/Pods-ironPitchTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F641412E2466F04BE1E2CEA2 /* libPods-ironPitch.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730ED6A946A24332D8522281 /* libPods-ironPitchTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA41303075ACC8AEC7C52EED /* libPods-ironPitchUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1984F26A36C5057829C7D74F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				585D7BB6871575CB3FE04DAA /* Pods-ironPitch.debug.xcconfig */,
+				7E4D885C6AB9A0C7257B61C3 /* Pods-ironPitch.release.xcconfig */,
+				A2D5C0316CD1F03CEE4E30C5 /* Pods-ironPitchTests.debug.xcconfig */,
+				C7621EF7B309032CB0D09259 /* Pods-ironPitchTests.release.xcconfig */,
+				2F590D13F5BDDBF1F2B7C1F0 /* Pods-ironPitchUITests.debug.xcconfig */,
+				B78F36C3E6E87EF797E98701 /* Pods-ironPitchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		1E686ACF1FCF005900E01496 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +119,8 @@
 				1E686AF61FCF005900E01496 /* ironPitchTests */,
 				1E686B011FCF005900E01496 /* ironPitchUITests */,
 				1E686AD91FCF005900E01496 /* Products */,
+				1984F26A36C5057829C7D74F /* Pods */,
+				7BFF5E6EB47C7D94DB033E68 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +137,7 @@
 		1E686ADA1FCF005900E01496 /* ironPitch */ = {
 			isa = PBXGroup;
 			children = (
+				1EE726451FCF0D57001DC3C8 /* Model */,
 				1E686ADB1FCF005900E01496 /* AppDelegate.h */,
 				1E686ADC1FCF005900E01496 /* AppDelegate.m */,
 				1E686ADE1FCF005900E01496 /* FirstViewController.h */,
@@ -137,6 +171,25 @@
 			path = ironPitchUITests;
 			sourceTree = "<group>";
 		};
+		1EE726451FCF0D57001DC3C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EE726461FCF0D7A001DC3C8 /* ISDataManager.h */,
+				1EE726471FCF0D7A001DC3C8 /* ISDataManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BFF5E6EB47C7D94DB033E68 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B459CC83F2AF142E1A86B710 /* libPods-ironPitch.a */,
+				C36E3F6EFB72011B66CFDE14 /* libPods-ironPitchTests.a */,
+				642B719191CE98951FB1B5AC /* libPods-ironPitchUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E686B071FCF005900E01496 /* Build configuration list for PBXNativeTarget "ironPitch" */;
 			buildPhases = (
+				E7C102A4FCEAB8F829B60D64 /* [CP] Check Pods Manifest.lock */,
 				1E686AD41FCF005900E01496 /* Sources */,
 				1E686AD51FCF005900E01496 /* Frameworks */,
 				1E686AD61FCF005900E01496 /* Resources */,
+				26FB08C3A6E7BDDD63F2122B /* [CP] Embed Pods Frameworks */,
+				E87BA22F5A4A08E99EF359D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +217,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E686B0A1FCF005900E01496 /* Build configuration list for PBXNativeTarget "ironPitchTests" */;
 			buildPhases = (
+				5C18678815514AB9FF4CEA6F /* [CP] Check Pods Manifest.lock */,
 				1E686AEF1FCF005900E01496 /* Sources */,
 				1E686AF01FCF005900E01496 /* Frameworks */,
 				1E686AF11FCF005900E01496 /* Resources */,
+				509153033556BEF1D63492BF /* [CP] Embed Pods Frameworks */,
+				A21CAC861EF932A4ECCB44FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E686B0D1FCF005900E01496 /* Build configuration list for PBXNativeTarget "ironPitchUITests" */;
 			buildPhases = (
+				DEA589BC98BA88B5782AB3D4 /* [CP] Check Pods Manifest.lock */,
 				1E686AFA1FCF005900E01496 /* Sources */,
 				1E686AFB1FCF005900E01496 /* Frameworks */,
 				1E686AFC1FCF005900E01496 /* Resources */,
+				A73EA58F618C0E4264508E20 /* [CP] Embed Pods Frameworks */,
+				3BA9C81528E06D556AF412E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +327,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26FB08C3A6E7BDDD63F2122B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA9C81528E06D556AF412E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitchUITests/Pods-ironPitchUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		509153033556BEF1D63492BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitchTests/Pods-ironPitchTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C18678815514AB9FF4CEA6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ironPitchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A21CAC861EF932A4ECCB44FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitchTests/Pods-ironPitchTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73EA58F618C0E4264508E20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitchUITests/Pods-ironPitchUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA589BC98BA88B5782AB3D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ironPitchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7C102A4FCEAB8F829B60D64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ironPitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87BA22F5A4A08E99EF359D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E686AD41FCF005900E01496 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,6 +483,7 @@
 				1E686ADD1FCF005900E01496 /* AppDelegate.m in Sources */,
 				1E686AEE1FCF005900E01496 /* main.m in Sources */,
 				1E686AE01FCF005900E01496 /* FirstViewController.m in Sources */,
+				1EE726481FCF0D7A001DC3C8 /* ISDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +644,7 @@
 		};
 		1E686B081FCF005900E01496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585D7BB6871575CB3FE04DAA /* Pods-ironPitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +659,7 @@
 		};
 		1E686B091FCF005900E01496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4D885C6AB9A0C7257B61C3 /* Pods-ironPitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +674,7 @@
 		};
 		1E686B0B1FCF005900E01496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D5C0316CD1F03CEE4E30C5 /* Pods-ironPitchTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -477,6 +690,7 @@
 		};
 		1E686B0C1FCF005900E01496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7621EF7B309032CB0D09259 /* Pods-ironPitchTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +706,7 @@
 		};
 		1E686B0E1FCF005900E01496 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F590D13F5BDDBF1F2B7C1F0 /* Pods-ironPitchUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLKYWCU5C3;
@@ -506,6 +721,7 @@
 		};
 		1E686B0F1FCF005900E01496 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78F36C3E6E87EF797E98701 /* Pods-ironPitchUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLKYWCU5C3;
