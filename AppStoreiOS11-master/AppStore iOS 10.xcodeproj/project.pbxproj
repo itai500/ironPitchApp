@@ -53,6 +53,10 @@
 		1EEBFEC01FCF33B900D578C2 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		1EEBFEC21FCF33B900D578C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A4B1F044FC500A60799 /* LaunchScreen.storyboard */; };
 		1EEBFEC31FCF33B900D578C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A491F044FC500A60799 /* Assets.xcassets */; };
+		1EEBFECF1FCF522C00D578C2 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFECE1FCF522C00D578C2 /* DepartmentViewController.swift */; };
+		1EEBFED01FCF522C00D578C2 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFECE1FCF522C00D578C2 /* DepartmentViewController.swift */; };
+		1EEBFED21FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFED11FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift */; };
+		1EEBFED31FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFED11FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift */; };
 		68045C729709FE5F1E61A904 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		C60B83051F0C70C9007EAD68 /* SmallAppListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */; };
 		C60E4A121F066274001A8BEB /* DividerFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E4A111F066274001A8BEB /* DividerFooter.swift */; };
@@ -104,6 +108,8 @@
 /* Begin PBXFileReference section */
 		1EEBFEC91FCF33BA00D578C2 /* ironPitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ironPitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEBFECA1FCF33BA00D578C2 /* AppStore iOS 10 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppStore iOS 10 copy-Info.plist"; path = "/Users/itai.asaf/Downloads/AppStoreiOS11-master/AppStore iOS 10 copy-Info.plist"; sourceTree = "<absolute>"; };
+		1EEBFECE1FCF522C00D578C2 /* DepartmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
+		1EEBFED11FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentViewControllerConfigurator.swift; sourceTree = "<group>"; };
 		78F3CE854DCEC0B8D43D301C /* Pods-AppStore iOS 10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.release.xcconfig"; sourceTree = "<group>"; };
 		A4E6BBCAF0ED15650A9C6D74 /* Pods-AppStore iOS 10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAppListHeader.swift; sourceTree = "<group>"; };
@@ -257,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				C62D7A5B1F0459B400A60799 /* TodaysAppsController.swift */,
+				1EEBFECE1FCF522C00D578C2 /* DepartmentViewController.swift */,
 				C62D7A5D1F0459CA00A60799 /* GamesAppsController.swift */,
 				C6B78E6A1F0B230E00F111E3 /* UpdatesViewController.swift */,
 			);
@@ -326,6 +333,7 @@
 				C60E4A181F068D54001A8BEB /* TodayArticle.swift */,
 				C628AFB61F0990A6002645CA /* Review.swift */,
 				C628AFB81F09AD37002645CA /* ViewControllerConfigurator.swift */,
+				1EEBFED11FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -600,6 +608,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EEBFED31FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */,
 				1EEBFE941FCF33B900D578C2 /* SmallAppListHolderCell.swift in Sources */,
 				1EEBFE951FCF33B900D578C2 /* ScreenShotsHolderCell.swift in Sources */,
 				1EEBFE961FCF33B900D578C2 /* RatingCollectionViewCell.swift in Sources */,
@@ -632,6 +641,7 @@
 				1EEBFEB11FCF33B900D578C2 /* ViewControllerConfigurator.swift in Sources */,
 				1EEBFEB21FCF33B900D578C2 /* AppDetailViewController.swift in Sources */,
 				1EEBFEB31FCF33B900D578C2 /* Utils.swift in Sources */,
+				1EEBFED01FCF522C00D578C2 /* DepartmentViewController.swift in Sources */,
 				1EEBFEB41FCF33B900D578C2 /* Constants.swift in Sources */,
 				1EEBFEB51FCF33B900D578C2 /* HeaderItem.swift in Sources */,
 				1EEBFEB61FCF33B900D578C2 /* TabsController.swift in Sources */,
@@ -650,6 +660,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EEBFED21FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */,
 				C60E4A141F067CD9001A8BEB /* SmallAppListHolderCell.swift in Sources */,
 				C6A8C2391F0913D0001C98A0 /* ScreenShotsHolderCell.swift in Sources */,
 				C628AFB51F098F5E002645CA /* RatingCollectionViewCell.swift in Sources */,
@@ -682,6 +693,7 @@
 				C628AFB91F09AD37002645CA /* ViewControllerConfigurator.swift in Sources */,
 				C6B8C9D31F07E15800391BBD /* AppDetailViewController.swift in Sources */,
 				C6A8C2351F08F2F5001C98A0 /* Utils.swift in Sources */,
+				1EEBFECF1FCF522C00D578C2 /* DepartmentViewController.swift in Sources */,
 				C6A8C23C1F091715001C98A0 /* Constants.swift in Sources */,
 				C6D1C58D1F04CCE800D70D57 /* HeaderItem.swift in Sources */,
 				C62D7A451F044FC500A60799 /* TabsController.swift in Sources */,

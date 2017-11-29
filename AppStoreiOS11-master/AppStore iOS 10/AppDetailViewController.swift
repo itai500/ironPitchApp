@@ -52,7 +52,7 @@ class AppDetailViewController: UIViewController , UICollectionViewDelegate, UICo
                 appIcon.kf.setImage(with: url)
             }
             
-            if let appID = app?.appID{
+            if let appID = app?.appID {
                 Service.sharedInstance.getAppDetails(appID: appID, completed: { (application) in
                     self.collectionViewAppCopy = application
                     self.collectionView.collectionViewLayout.invalidateLayout()

@@ -32,10 +32,38 @@ class TodaysAppsController: DatasourceController  {
     
     
     func setSelectedApp(app: App?) {
-        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"123", appPhoto: "stream_rail_icon", screenShots: [""])
-        let appDetailVC = AppDetailViewController()
-        appDetailVC.app = app1
-        self.show(appDetailVC, sender: appDetailVC)
+//        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"123", appPhoto: "stream_rail_icon", screenShots: [""])
+//        let appDetailVC = AppDetailViewController()
+//        appDetailVC.app = app1
+//        self.show(appDetailVC, sender: appDetailVC)
+        
+//        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"123", appPhoto: "stream_rail_icon", screenShots: [""])
+        let deptDetailVC = DepartmentViewController()
+        deptDetailVC.departmentData = [
+            "Name" : "Joe Smith" as AnyObject,
+            "Height" : 42 as AnyObject,
+            "Soccer Expo" : true as AnyObject,
+            "Guardian" : "Jim and Jan Smith" as AnyObject]
+        
+        let items = ["angry","war", "clan"]
+        var apps: [App] = [App]()
+        
+        let app1 = App(appName: "Injustice", appDesc: "When iconic superheroes collide", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "batmandem", screenShots: [""])
+        
+        let app2 = App(appName: "Cubic Cosmos", appDesc: "When geometry arrives space", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "cubic_cosmos", screenShots: [""])
+        
+        let app3 = App(appName: "Monument Valley", appDesc: "Inside the iconic sequel", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "mirage", screenShots: [""])
+        apps = [app1, app2, app3]
+        let headerItemGames = HeaderItem(smallTitle: "\t".uppercased(), bigTitle: "Games", hideDiv: false)
+        
+        var configGames = ViewControllerConfigurator()
+        configGames.appsArray = apps
+        configGames.listArray = items
+        configGames.headerItem = headerItemGames
+        configGames.subHeaderTitle = "New Games we love"
+        deptDetailVC.config = configGames
+        
+        self.show(deptDetailVC, sender: deptDetailVC)
     }
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
