@@ -15,7 +15,10 @@ class TabsController: UITabBarController, UITabBarControllerDelegate {
         
         //Assign self for delegate for that ViewController can respond to UITabBarControllerDelegate methods
         self.delegate = self
-        
+
+        Service.sharedInstance.getIronSourceData(completed:{ (company) in
+            print("Itai")
+        })
     }
     
     
