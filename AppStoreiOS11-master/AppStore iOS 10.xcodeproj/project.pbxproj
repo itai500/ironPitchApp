@@ -59,6 +59,9 @@
 		1EEBFED31FCF5A4B00D578C2 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		1EEBFED41FCF5E6400D578C2 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C71FCF4DDD00F1D13E /* Department.swift */; };
 		1EEBFED51FCF5E6700D578C2 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
+		1EEBFED61FCF5EBE00D578C2 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2CB1FCF599E00F1D13E /* DataManager.swift */; };
+		1EEBFED81FCF5EF800D578C2 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFED71FCF5EF800D578C2 /* DepartmentViewController.swift */; };
+		1EEBFED91FCF5EF800D578C2 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFED71FCF5EF800D578C2 /* DepartmentViewController.swift */; };
 		344CA2C81FCF4DDD00F1D13E /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C71FCF4DDD00F1D13E /* Department.swift */; };
 		344CA2CA1FCF4F2C00F1D13E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
 		344CA2CC1FCF599E00F1D13E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2CB1FCF599E00F1D13E /* DataManager.swift */; };
@@ -113,6 +116,7 @@
 /* Begin PBXFileReference section */
 		1EEBFEC91FCF33BA00D578C2 /* ironPitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ironPitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEBFECA1FCF33BA00D578C2 /* AppStore iOS 10 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppStore iOS 10 copy-Info.plist"; path = "/Users/itai.asaf/Downloads/AppStoreiOS11-master/AppStore iOS 10 copy-Info.plist"; sourceTree = "<absolute>"; };
+		1EEBFED71FCF5EF800D578C2 /* DepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
 		344CA2C71FCF4DDD00F1D13E /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 		344CA2C91FCF4F2C00F1D13E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		344CA2CB1FCF599E00F1D13E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -268,6 +272,7 @@
 		C628AFAD1F097AF1002645CA /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				1EEBFED71FCF5EF800D578C2 /* DepartmentViewController.swift */,
 				C62D7A5B1F0459B400A60799 /* TodaysAppsController.swift */,
 				C62D7A5D1F0459CA00A60799 /* GamesAppsController.swift */,
 				C6B78E6A1F0B230E00F111E3 /* UpdatesViewController.swift */,
@@ -616,6 +621,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EEBFED31FCF5A4B00D578C2 /* (null) in Sources */,
+				1EEBFED61FCF5EBE00D578C2 /* DataManager.swift in Sources */,
 				1EEBFE941FCF33B900D578C2 /* SmallAppListHolderCell.swift in Sources */,
 				1EEBFE951FCF33B900D578C2 /* ScreenShotsHolderCell.swift in Sources */,
 				1EEBFE961FCF33B900D578C2 /* RatingCollectionViewCell.swift in Sources */,
@@ -653,6 +659,7 @@
 				1EEBFEB41FCF33B900D578C2 /* Constants.swift in Sources */,
 				1EEBFEB51FCF33B900D578C2 /* HeaderItem.swift in Sources */,
 				1EEBFEB61FCF33B900D578C2 /* TabsController.swift in Sources */,
+				1EEBFED91FCF5EF800D578C2 /* DepartmentViewController.swift in Sources */,
 				1EEBFEB71FCF33B900D578C2 /* ScreenShotViewCell.swift in Sources */,
 				1EEBFEB81FCF33B900D578C2 /* GamesAppsController.swift in Sources */,
 				1EEBFEB91FCF33B900D578C2 /* FeaturedAppTopWhiteBg.swift in Sources */,
@@ -708,6 +715,7 @@
 				C6D1C58D1F04CCE800D70D57 /* HeaderItem.swift in Sources */,
 				C62D7A451F044FC500A60799 /* TabsController.swift in Sources */,
 				C6A8C2371F0912C2001C98A0 /* ScreenShotViewCell.swift in Sources */,
+				1EEBFED81FCF5EF800D578C2 /* DepartmentViewController.swift in Sources */,
 				C62D7A5E1F0459CA00A60799 /* GamesAppsController.swift in Sources */,
 				C60E4A1B1F06B771001A8BEB /* FeaturedAppTopWhiteBg.swift in Sources */,
 				344CA2CA1FCF4F2C00F1D13E /* Company.swift in Sources */,

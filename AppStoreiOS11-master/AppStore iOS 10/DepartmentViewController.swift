@@ -10,7 +10,7 @@ import LBTAComponents
 
 class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, OnAppSelectedDelegate {
     
-    var departmentData: Dictionary<String, Any>?
+    var departmentData: Department?
     
     var config : ViewControllerConfigurator? {
         didSet {

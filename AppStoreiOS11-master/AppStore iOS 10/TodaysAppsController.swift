@@ -39,11 +39,8 @@ class TodaysAppsController: DatasourceController  {
         
 //        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"123", appPhoto: "stream_rail_icon", screenShots: [""])
         let deptDetailVC = DepartmentViewController()
-        deptDetailVC.departmentData = [
-            "Name" : "Joe Smith" as AnyObject,
-            "Height" : 42 as AnyObject,
-            "Soccer Expo" : true as AnyObject,
-            "Guardian" : "Jim and Jan Smith" as AnyObject]
+        
+        deptDetailVC.departmentData = DataManager.sharedInstance.getDepartment(name: "brandSolutions")
         
         let items = ["angry","war", "clan"]
         var apps: [App] = [App]()

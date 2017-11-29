@@ -125,14 +125,15 @@ class Service: NSObject {
         
                 if let departmentsData = result["departments"] as? Dictionary<String, Any> {
                     if !departmentsData.isEmpty{
-                        var departments = [Department]()
-                        
+                        var departments:NSMutableDictionary = [:]
+            
                         for departmentData in departmentsData{
                             var department = Department()
                             department.data = departmentData
-                            departments.append(department)
+            
+                            departments.setValue(department, forKey: departmentData.key)
                         }
-                        company.departmentsArray = departments
+                       company.departments = departments
                     }
                 }
             }

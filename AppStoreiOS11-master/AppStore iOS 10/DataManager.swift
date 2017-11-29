@@ -9,14 +9,22 @@
 import Foundation
 
 
-class DataManager {
-    let company: Company?
-    func getDepartments(byName: Int) {
-        company?.departmentsArray
+class DataManager: NSObject {
+    static var sharedInstance : DataManager = DataManager()
+    var company: Company?
+
+    override init() {
+        self.company = Company()
     }
     
-    init() {
-        company = Company()
+    public func getCompany() {
+        Service.sharedInstance.getIronSourceData(completed:{(company) in
+            self.company = company
+        })
     }
     
+    public func getDepartment(name: String) -> Department {
+       return self.company!.departments.object(forKey: name) as! Department
+    }
+
 }

@@ -9,7 +9,7 @@
 import Foundation
 
 struct Company {
-    var departmentsArray: [Department]?
+    var departments:NSMutableDictionary = [:]
     
     init() {
         
