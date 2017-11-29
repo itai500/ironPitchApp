@@ -61,6 +61,7 @@
 		1EEBFED51FCF5E6700D578C2 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
 		344CA2C81FCF4DDD00F1D13E /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C71FCF4DDD00F1D13E /* Department.swift */; };
 		344CA2CA1FCF4F2C00F1D13E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
+		344CA2CC1FCF599E00F1D13E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2CB1FCF599E00F1D13E /* DataManager.swift */; };
 		68045C729709FE5F1E61A904 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		C60B83051F0C70C9007EAD68 /* SmallAppListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */; };
 		C60E4A121F066274001A8BEB /* DividerFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E4A111F066274001A8BEB /* DividerFooter.swift */; };
@@ -114,6 +115,7 @@
 		1EEBFECA1FCF33BA00D578C2 /* AppStore iOS 10 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppStore iOS 10 copy-Info.plist"; path = "/Users/itai.asaf/Downloads/AppStoreiOS11-master/AppStore iOS 10 copy-Info.plist"; sourceTree = "<absolute>"; };
 		344CA2C71FCF4DDD00F1D13E /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 		344CA2C91FCF4F2C00F1D13E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		344CA2CB1FCF599E00F1D13E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		78F3CE854DCEC0B8D43D301C /* Pods-AppStore iOS 10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.release.xcconfig"; sourceTree = "<group>"; };
 		A4E6BBCAF0ED15650A9C6D74 /* Pods-AppStore iOS 10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAppListHeader.swift; sourceTree = "<group>"; };
@@ -377,6 +379,7 @@
 				C6A8C2341F08F2F5001C98A0 /* Utils.swift */,
 				C6A8C23B1F091715001C98A0 /* Constants.swift */,
 				C6A8C23D1F091A7C001C98A0 /* Service.swift */,
+				344CA2CB1FCF599E00F1D13E /* DataManager.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 				C628AFB51F098F5E002645CA /* RatingCollectionViewCell.swift in Sources */,
 				C60E4A121F066274001A8BEB /* DividerFooter.swift in Sources */,
 				C6126AB21F063B7F000493BA /* LGHorizontalLinearFlowLayout.swift in Sources */,
+				344CA2CC1FCF599E00F1D13E /* DataManager.swift in Sources */,
 				C62D7A681F046B5200A60799 /* TodayAppsDataSource.swift in Sources */,
 				C6A8C23E1F091A7C001C98A0 /* Service.swift in Sources */,
 				C6D1C58B1F04CBE500D70D57 /* GamesDataSource.swift in Sources */,
