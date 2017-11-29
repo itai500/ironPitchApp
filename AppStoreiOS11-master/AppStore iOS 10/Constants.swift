@@ -24,6 +24,7 @@ func getSearchURLForQuery(query: String) -> String {
 }
 
 typealias Completed = (_ data : [App]) -> ()
+typealias Completed2 = (_ data : Company) -> ()
 
 func getDetailsURLForID(appID: Int) -> String {
     let searchURL = "\(BASE_URL)\(DETAILS_PATH)\(appID)\(FORMAT)\(ARGUMENTS)"

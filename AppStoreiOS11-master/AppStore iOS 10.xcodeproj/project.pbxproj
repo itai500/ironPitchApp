@@ -53,6 +53,8 @@
 		1EEBFEC01FCF33B900D578C2 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		1EEBFEC21FCF33B900D578C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A4B1F044FC500A60799 /* LaunchScreen.storyboard */; };
 		1EEBFEC31FCF33B900D578C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A491F044FC500A60799 /* Assets.xcassets */; };
+		344CA2C81FCF4DDD00F1D13E /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C71FCF4DDD00F1D13E /* Department.swift */; };
+		344CA2CA1FCF4F2C00F1D13E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
 		68045C729709FE5F1E61A904 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		C60B83051F0C70C9007EAD68 /* SmallAppListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */; };
 		C60E4A121F066274001A8BEB /* DividerFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E4A111F066274001A8BEB /* DividerFooter.swift */; };
@@ -104,6 +106,8 @@
 /* Begin PBXFileReference section */
 		1EEBFEC91FCF33BA00D578C2 /* ironPitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ironPitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEBFECA1FCF33BA00D578C2 /* AppStore iOS 10 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppStore iOS 10 copy-Info.plist"; path = "/Users/itai.asaf/Downloads/AppStoreiOS11-master/AppStore iOS 10 copy-Info.plist"; sourceTree = "<absolute>"; };
+		344CA2C71FCF4DDD00F1D13E /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		344CA2C91FCF4F2C00F1D13E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		78F3CE854DCEC0B8D43D301C /* Pods-AppStore iOS 10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.release.xcconfig"; sourceTree = "<group>"; };
 		A4E6BBCAF0ED15650A9C6D74 /* Pods-AppStore iOS 10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.debug.xcconfig"; sourceTree = "<group>"; };
 		C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAppListHeader.swift; sourceTree = "<group>"; };
@@ -326,6 +330,8 @@
 				C60E4A181F068D54001A8BEB /* TodayArticle.swift */,
 				C628AFB61F0990A6002645CA /* Review.swift */,
 				C628AFB81F09AD37002645CA /* ViewControllerConfigurator.swift */,
+				344CA2C71FCF4DDD00F1D13E /* Department.swift */,
+				344CA2C91FCF4F2C00F1D13E /* Company.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -688,7 +694,9 @@
 				C6A8C2371F0912C2001C98A0 /* ScreenShotViewCell.swift in Sources */,
 				C62D7A5E1F0459CA00A60799 /* GamesAppsController.swift in Sources */,
 				C60E4A1B1F06B771001A8BEB /* FeaturedAppTopWhiteBg.swift in Sources */,
+				344CA2CA1FCF4F2C00F1D13E /* Company.swift in Sources */,
 				C60B83051F0C70C9007EAD68 /* SmallAppListHeader.swift in Sources */,
+				344CA2C81FCF4DDD00F1D13E /* Department.swift in Sources */,
 				C6B78E671F0B11FB00F111E3 /* CustomNavigationController.swift in Sources */,
 				C60E4A171F0688CE001A8BEB /* App.swift in Sources */,
 				C62D7A6A1F046F0B00A60799 /* FeaturedAppCardCell.swift in Sources */,
