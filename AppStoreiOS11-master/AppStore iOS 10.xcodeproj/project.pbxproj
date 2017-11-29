@@ -53,10 +53,12 @@
 		1EEBFEC01FCF33B900D578C2 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		1EEBFEC21FCF33B900D578C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A4B1F044FC500A60799 /* LaunchScreen.storyboard */; };
 		1EEBFEC31FCF33B900D578C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A491F044FC500A60799 /* Assets.xcassets */; };
-		1EEBFECF1FCF522C00D578C2 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFECE1FCF522C00D578C2 /* DepartmentViewController.swift */; };
-		1EEBFED01FCF522C00D578C2 /* DepartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFECE1FCF522C00D578C2 /* DepartmentViewController.swift */; };
-		1EEBFED21FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFED11FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift */; };
-		1EEBFED31FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBFED11FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift */; };
+		1EEBFECF1FCF522C00D578C2 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1EEBFED01FCF522C00D578C2 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1EEBFED21FCF5A4B00D578C2 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1EEBFED31FCF5A4B00D578C2 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1EEBFED41FCF5E6400D578C2 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C71FCF4DDD00F1D13E /* Department.swift */; };
+		1EEBFED51FCF5E6700D578C2 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
 		344CA2C81FCF4DDD00F1D13E /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C71FCF4DDD00F1D13E /* Department.swift */; };
 		344CA2CA1FCF4F2C00F1D13E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
 		68045C729709FE5F1E61A904 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
@@ -265,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				C62D7A5B1F0459B400A60799 /* TodaysAppsController.swift */,
-				1EEBFECE1FCF522C00D578C2 /* DepartmentViewController.swift */,
 				C62D7A5D1F0459CA00A60799 /* GamesAppsController.swift */,
 				C6B78E6A1F0B230E00F111E3 /* UpdatesViewController.swift */,
 			);
@@ -335,7 +336,6 @@
 				C60E4A181F068D54001A8BEB /* TodayArticle.swift */,
 				C628AFB61F0990A6002645CA /* Review.swift */,
 				C628AFB81F09AD37002645CA /* ViewControllerConfigurator.swift */,
-				1EEBFED11FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift */,
 				344CA2C71FCF4DDD00F1D13E /* Department.swift */,
 				344CA2C91FCF4F2C00F1D13E /* Company.swift */,
 			);
@@ -612,7 +612,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEBFED31FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */,
+				1EEBFED31FCF5A4B00D578C2 /* (null) in Sources */,
 				1EEBFE941FCF33B900D578C2 /* SmallAppListHolderCell.swift in Sources */,
 				1EEBFE951FCF33B900D578C2 /* ScreenShotsHolderCell.swift in Sources */,
 				1EEBFE961FCF33B900D578C2 /* RatingCollectionViewCell.swift in Sources */,
@@ -627,6 +627,7 @@
 				1EEBFE9F1FCF33B900D578C2 /* OnAppSelectedDelegate.swift in Sources */,
 				1EEBFEA01FCF33B900D578C2 /* Extension.swift in Sources */,
 				1EEBFEA11FCF33B900D578C2 /* FeaturedAppCellBottomApp.swift in Sources */,
+				1EEBFED41FCF5E6400D578C2 /* Department.swift in Sources */,
 				1EEBFEA21FCF33B900D578C2 /* LargePhotoHorizontalCollectionViewCell.swift in Sources */,
 				1EEBFEA31FCF33B900D578C2 /* AppDescriptionCell.swift in Sources */,
 				1EEBFEA41FCF33B900D578C2 /* SmallAppSearchUpdateCell.swift in Sources */,
@@ -645,13 +646,14 @@
 				1EEBFEB11FCF33B900D578C2 /* ViewControllerConfigurator.swift in Sources */,
 				1EEBFEB21FCF33B900D578C2 /* AppDetailViewController.swift in Sources */,
 				1EEBFEB31FCF33B900D578C2 /* Utils.swift in Sources */,
-				1EEBFED01FCF522C00D578C2 /* DepartmentViewController.swift in Sources */,
+				1EEBFED01FCF522C00D578C2 /* (null) in Sources */,
 				1EEBFEB41FCF33B900D578C2 /* Constants.swift in Sources */,
 				1EEBFEB51FCF33B900D578C2 /* HeaderItem.swift in Sources */,
 				1EEBFEB61FCF33B900D578C2 /* TabsController.swift in Sources */,
 				1EEBFEB71FCF33B900D578C2 /* ScreenShotViewCell.swift in Sources */,
 				1EEBFEB81FCF33B900D578C2 /* GamesAppsController.swift in Sources */,
 				1EEBFEB91FCF33B900D578C2 /* FeaturedAppTopWhiteBg.swift in Sources */,
+				1EEBFED51FCF5E6700D578C2 /* Company.swift in Sources */,
 				1EEBFEBA1FCF33B900D578C2 /* SmallAppListHeader.swift in Sources */,
 				1EEBFEBB1FCF33B900D578C2 /* CustomNavigationController.swift in Sources */,
 				1EEBFEBC1FCF33B900D578C2 /* App.swift in Sources */,
@@ -664,7 +666,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEBFED21FCF5A4B00D578C2 /* DepartmentViewControllerConfigurator.swift in Sources */,
+				1EEBFED21FCF5A4B00D578C2 /* (null) in Sources */,
 				C60E4A141F067CD9001A8BEB /* SmallAppListHolderCell.swift in Sources */,
 				C6A8C2391F0913D0001C98A0 /* ScreenShotsHolderCell.swift in Sources */,
 				C628AFB51F098F5E002645CA /* RatingCollectionViewCell.swift in Sources */,
@@ -697,7 +699,7 @@
 				C628AFB91F09AD37002645CA /* ViewControllerConfigurator.swift in Sources */,
 				C6B8C9D31F07E15800391BBD /* AppDetailViewController.swift in Sources */,
 				C6A8C2351F08F2F5001C98A0 /* Utils.swift in Sources */,
-				1EEBFECF1FCF522C00D578C2 /* DepartmentViewController.swift in Sources */,
+				1EEBFECF1FCF522C00D578C2 /* (null) in Sources */,
 				C6A8C23C1F091715001C98A0 /* Constants.swift in Sources */,
 				C6D1C58D1F04CCE800D70D57 /* HeaderItem.swift in Sources */,
 				C62D7A451F044FC500A60799 /* TabsController.swift in Sources */,
