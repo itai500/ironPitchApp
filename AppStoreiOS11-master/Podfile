@@ -12,5 +12,6 @@ target 'AppStore iOS 10' do
   pod 'Cosmos', '~> 10.0'
   pod 'ReadMoreTextView'
   pod 'AZSearchView'
-
+  pod 'PFWebViewController', '~> 1.1.1'
+  pod 'BMPlayer', '~> 0.9.1'
 end
