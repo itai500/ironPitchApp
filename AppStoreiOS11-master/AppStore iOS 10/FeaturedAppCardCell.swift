@@ -46,6 +46,7 @@ class FeaturedAppCardCell: DatasourceCell {
     
     var smallTitle : UILabel = {
         let label = UILabel()
+        
         label.font = UIFont.systemFont(ofSize: 12)
         label.text = "EXPLORE".uppercased()
         //label.textColor = UIColor(white: 1, alpha: 0.4)
@@ -54,7 +55,9 @@ class FeaturedAppCardCell: DatasourceCell {
     
     var bigTitle : UILabel = {
         let label = UILabel()
-        label.font = UIFont.systemFont(ofSize: 24)
+        label.font =  UIFont(name: "San Francisco", size: 20)
+
+//        label.font = UIFont.systemFont(ofSize: 24)
         label.numberOfLines = 0
         label.text = "The Beauty of modern Living"
         return label

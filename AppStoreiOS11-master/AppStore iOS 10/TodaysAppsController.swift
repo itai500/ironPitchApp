@@ -40,7 +40,7 @@ class TodaysAppsController: DatasourceController  {
 //        let app1 = App(appName: "Brand Solutions", appDesc: "One Video Platform to Rule Them All", appID: 1, appCategory: "Leisure", appPrice: 0, appStory:"123", appPhoto: "stream_rail_icon", screenShots: [""])
         let deptDetailVC = DepartmentViewController()
         if let name = app!.appStory {
-            deptDetailVC.departmentData = DataManager.sharedInstance.getDepartment(name: name)
+           // deptDetailVC.departmentData = DataManager.sharedInstance.getDepartment(name: name)
         }
         
         let items = ["angry","war", "clan"]
@@ -138,7 +138,7 @@ class TodaysAppsController: DatasourceController  {
         if(kind == UICollectionElementKindSectionHeader){
             header = (collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: NSStringFromClass(GeneralHeaderCell.self), for: indexPath) as? GeneralHeaderCell)!
             
-            let headerItem = HeaderItem(smallTitle: "ironPitch, V1.9".uppercased(), bigTitle: "IS Products", hideDiv: true)
+            let headerItem = HeaderItem(smallTitle: "ironPitch, V1.9".uppercased(), bigTitle: "Solutions", hideDiv: true)
             header.headerItem = headerItem
             //header.hideDivider()
             
