@@ -221,9 +221,9 @@ open class GDWebViewController: UIViewController, WKNavigationDelegate, WKUIDele
     open func webView(_ webView: WKWebView, didReceiveServerRedirectForProvisionalNavigation navigation: WKNavigation!) {
     }
     
-    open func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
-        showLoading(true)
-    }
+//    open func webView(_ webView: WKWebView, didStartProvisionalNavigation navigation: WKNavigation!) {
+//        showLoading(true)
+//    }
     
     open func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
         guard ((delegate?.webViewController?(self, decidePolicyForNavigationAction: navigationAction, decisionHandler: { (policy) -> Void in

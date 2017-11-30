@@ -18,14 +18,14 @@ class SmallAppCell: DatasourceCell {
             smallTitle.text = ""
             appDetails.attributedText = getAttributedStringForDesc(app: app!)
             
-            if let url = app?.appPhoto{
-                let url = URL(string: url)
-               // imageBg.kf.setImage(with: url)
+            if let name = app?.appName{
+                let imageName = DataManager.sharedInstance.getKeyPointsIcon(appName: name);
+                let image: UIImage = UIImage(named: imageName)!
+                imageBg.image = image
             }
 
         }
     }
-    
     
     
     var smallTitle : UILabel = {
@@ -84,8 +84,7 @@ class SmallAppCell: DatasourceCell {
 
     
     var imageBg : UIImageView = {
-        var image: UIImage = UIImage(named: "camera_app")!
-        let imgBG = UIImageView(image: image)
+        let imgBG = UIImageView()
         imgBG.contentMode = .scaleToFill
         imgBG.layer.cornerRadius = 12
         imgBG.clipsToBounds = true

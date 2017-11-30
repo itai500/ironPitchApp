@@ -143,9 +143,14 @@ class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UIC
 //        self.show(appDetailVC, sender: appDetailVC)
         let configuration = ImageViewerConfiguration { config in
             let imgBG = UIImageView()
-            imgBG.image = #imageLiteral(resourceName: "landscape")
-            UIApplication.shared.keyWindow?.rootViewController?.view .addSubview(imgBG)
-            config.imageView = imgBG
+
+            if let name = app.appName{
+                let imageName = DataManager.sharedInstance.getKeyPointImage(appName: name);
+                let image: UIImage = UIImage(named: imageName)!
+                imgBG.image = image
+                UIApplication.shared.keyWindow?.rootViewController?.view .addSubview(imgBG)
+                config.imageView = imgBG
+            }
         }
         
         present(ImageViewerController(configuration: configuration), animated: true)

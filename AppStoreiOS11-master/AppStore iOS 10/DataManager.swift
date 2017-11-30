@@ -26,5 +26,39 @@ class DataManager: NSObject {
     public func getDepartment(name: String) -> Department {
        return self.company!.departments.object(forKey: name) as! Department
     }
+    
+    var keyPointIcons: [String] = [
+        "camera_app",
+        "Milk"
+    ]
+    public func getKeyPointsIcon(appName: String) -> String {
+        return keyPointIcons[0]
+    }
+    public func getKeyPointsIcons() -> [String] {
+        return keyPointIcons
+    }
 
+    var keyPointImages: [String] = [
+        "landscape",
+        "MilkTitle"
+    ]
+    public func getKeyPointImage(appName: String) -> String {
+        return keyPointImages[0]
+    }
+    
+    public func getKeyPointImages() -> [String] {
+        return keyPointImages
+    }
+    
+    var keyPointTitles: [String] = [
+        "EggsTitle",
+        "MilkTitle"
+    ]
+    public func getKeyPointTitle(index: Int) -> String {
+        return keyPointTitles[index]
+    }
+
+    public func getKeyPointTitles() -> [String] {
+        return keyPointTitles
+    }
 }
