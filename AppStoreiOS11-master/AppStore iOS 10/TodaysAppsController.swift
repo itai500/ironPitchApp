@@ -53,21 +53,21 @@ class TodaysAppsController: DatasourceController  {
 //
 //        let app3 = App(appName: "Monument Valley", appDesc: "Inside the iconic sequel", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "mirage", screenShots: [""])
         
-        let app1 = App(appName: "Injustice", appDesc: "When iconic superheroes collide", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "batmandem",
+        let app1 = App(appName: "Playable 360", appDesc: "New type of Ad Unit", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "batmandem",
                        screenShots: [""], appWebViewDemo: "https://www.apple.com", appVideoDemo:"https://content.jwplatform.com/videos/kaUXWqTZ-640.mp4")
         
-        let app2 = App(appName: "Cubic Cosmos", appDesc: "When geometry arrives space", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "cubic_cosmos", screenShots: [""], appWebViewDemo:"https://www.apple.com", appVideoDemo:"https://content.jwplatform.com/videos/kaUXWqTZ-640.mp4")
+        let app2 = App(appName: "COCA COLA UA", appDesc: "Top Partner with MOAT", appID: 2, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "cubic_cosmos", screenShots: [""], appWebViewDemo:"https://www.apple.com", appVideoDemo:"https://content.jwplatform.com/videos/kaUXWqTZ-640.mp4")
         
-        let app3 = App(appName: "Monument Valley", appDesc: "Inside the iconic sequel", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "mirage", screenShots: [""], appWebViewDemo:"", appVideoDemo: "https://content.jwplatform.com/videos/kaUXWqTZ-640.mp4")
+        let app3 = App(appName: "Custom Offerwall", appDesc: "Holidays Special", appID: 3, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "mirage", screenShots: [""], appWebViewDemo:"", appVideoDemo: "https://content.jwplatform.com/videos/kaUXWqTZ-640.mp4")
         
         apps = [app1, app2, app3]
-        let headerItemGames = HeaderItem(smallTitle: "\t".uppercased(), bigTitle: "Games", hideDiv: false)
+        let headerItemGames = HeaderItem(smallTitle: "\t".uppercased(), bigTitle: "Product Demos", hideDiv: false)
         
         var configGames = ViewControllerConfigurator()
         configGames.appsArray = apps
         configGames.listArray = items
         configGames.headerItem = headerItemGames
-        configGames.subHeaderTitle = "New Games we love"
+        configGames.subHeaderTitle = "The Latest IS Demos"
         deptDetailVC.config = configGames
         
         self.show(deptDetailVC, sender: deptDetailVC)

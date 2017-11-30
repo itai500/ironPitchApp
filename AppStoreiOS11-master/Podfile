@@ -7,6 +7,7 @@ target 'AppStore iOS 10' do
 
   # Pods for AppStore iOS 10
   pod "LBTAComponents"
+  pod "EXTView"
   pod 'Alamofire', '~> 4.4'
   pod 'Kingfisher', '~> 3.0'
   pod 'Cosmos', '~> 10.0'
@@ -22,6 +23,7 @@ target 'ironPitch' do
     
     # Pods for AppStore iOS 10
     pod "LBTAComponents"
+    pod "EXTView"
     pod 'Alamofire', '~> 4.4'
     pod 'Kingfisher', '~> 3.0'
     pod 'Cosmos', '~> 10.0'
