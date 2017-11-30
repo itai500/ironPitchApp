@@ -29,7 +29,9 @@ class DataManager: NSObject {
     
     var keyPointIcons: [String] = [
         "camera_app",
-        "Milk"
+        "camera_app",
+        "camera_app"
+        
     ]
     public func getKeyPointsIcon(appName: String) -> String {
         return keyPointIcons[0]
@@ -39,8 +41,9 @@ class DataManager: NSObject {
     }
 
     var keyPointImages: [String] = [
-        "landscape",
-        "MilkTitle"
+        "Brands_Partners",
+        "Carriers_partners",
+        "App_developers_partners"
     ]
     public func getKeyPointImage(appName: String) -> String {
         return keyPointImages[0]
@@ -51,8 +54,8 @@ class DataManager: NSObject {
     }
     
     var keyPointTitles: [String] = [
-        "EggsTitle",
-        "MilkTitle"
+        "Brands_Partners",
+        "Carriers_partners"
     ]
     public func getKeyPointTitle(index: Int) -> String {
         return keyPointTitles[index]

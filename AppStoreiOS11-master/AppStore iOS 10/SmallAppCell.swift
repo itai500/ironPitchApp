@@ -109,6 +109,7 @@ class SmallAppCell: DatasourceCell {
         addSubview(imageBg)
         addSubview(appDetails)
         addSubview(getBtn)
+        getBtn.isHidden = true
         addSubview(inAppText)
         addSubview(divider)
         
