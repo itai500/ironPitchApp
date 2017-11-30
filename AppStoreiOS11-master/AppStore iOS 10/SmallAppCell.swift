@@ -20,7 +20,7 @@ class SmallAppCell: DatasourceCell {
             
             if let url = app?.appPhoto{
                 let url = URL(string: url)
-                imageBg.kf.setImage(with: url)
+               // imageBg.kf.setImage(with: url)
             }
 
         }
@@ -84,7 +84,8 @@ class SmallAppCell: DatasourceCell {
 
     
     var imageBg : UIImageView = {
-        let imgBG = UIImageView()
+        var image: UIImage = UIImage(named: "camera_app")!
+        let imgBG = UIImageView(image: image)
         imgBG.contentMode = .scaleToFill
         imgBG.layer.cornerRadius = 12
         imgBG.clipsToBounds = true

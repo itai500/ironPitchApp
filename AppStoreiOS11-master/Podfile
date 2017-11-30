@@ -8,10 +8,11 @@ target 'AppStore iOS 10' do
   # Pods for AppStore iOS 10
   pod "LBTAComponents"
   pod "EXTView"
+  pod 'SimpleImageViewer', '~> 1.0.2'
   pod 'Alamofire', '~> 4.4'
   pod 'Kingfisher', '~> 3.0'
   pod 'Cosmos', '~> 10.0'
-  pod 'ReadMoreTextView'
+  pod 'ReadMoreTextView', '~> 2.0.0'
   pod 'AZSearchView'
   pod 'PFWebViewController', '~> 1.1.1'
   pod 'BMPlayer', '~> 0.9.1'
@@ -24,10 +25,11 @@ target 'ironPitch' do
     # Pods for AppStore iOS 10
     pod "LBTAComponents"
     pod "EXTView"
+    pod 'SimpleImageViewer', '~> 1.0.2'
     pod 'Alamofire', '~> 4.4'
     pod 'Kingfisher', '~> 3.0'
     pod 'Cosmos', '~> 10.0'
-    pod 'ReadMoreTextView'
+    pod 'ReadMoreTextView', '~> 2.0.0'
     pod 'AZSearchView'
     pod 'PFWebViewController', '~> 1.1.1'
     pod 'BMPlayer', '~> 0.9.1'

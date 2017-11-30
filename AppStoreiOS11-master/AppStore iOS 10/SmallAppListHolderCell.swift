@@ -17,12 +17,27 @@ class SmallListHolderCell: DatasourceCell, UICollectionViewDelegate, UICollectio
     
     var searchTerm : String?{
         didSet{
-            if let s = searchTerm{
-                Service.sharedInstance.getAppSearch(searchTerm: s, completed: {data in
-                    self.apps = data
-                    self.collectionView.reloadData()
-                })
-            }
+            
+            
+            
+            var apps: [App] = [App]()
+            
+            let app1 = App(appName: "Injustice", appDesc: "When iconic superheroes collide", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "camera_app", screenShots: [""])
+            
+            let app2 = App(appName: "Cubic Cosmos", appDesc: "When geometry arrives space", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "camera_app", screenShots: [""])
+            
+            let app3 = App(appName: "Monument Valley", appDesc: "Inside the iconic sequel", appID: 1, appCategory: "NEW GAME", appPrice: 0, appStory:"123", appPhoto: "camera_app", screenShots: [""])
+            apps = [app1, app2, app3]
+            self.apps = apps
+            
+            self.collectionView.reloadData()
+
+//            if let s = searchTerm{
+//                Service.sharedInstance.getAppSearch(searchTerm: s, completed: {data in
+//                    self.apps = data
+//                    self.collectionView.reloadData()
+//                })
+//            }
         }
     }
     
