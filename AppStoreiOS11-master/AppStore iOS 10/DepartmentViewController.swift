@@ -7,8 +7,12 @@
 //
 
 import LBTAComponents
+import BMPlayer
+import UIKit
+import AVKit
+import AVFoundation
 
-class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, OnAppSelectedDelegate {
+class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, OnAppSelectedDelegate, GDWebViewControllerDelegate {
     
     var departmentData: Department?
     
@@ -59,11 +63,6 @@ class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UIC
             collectionView.setCollectionViewLayout(layout, animated: true)
         }
         
-        if let dict = self.departmentData?.data {
-            var name = dict["title"] as! String
-            print("\(name) itai")
-        }
-        
         collectionView.showsVerticalScrollIndicator = false
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -79,6 +78,56 @@ class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UIC
         collectionView.register(SmallAppListHeader.self, forSupplementaryViewOfKind: UICollectionElementKindSectionHeader, withReuseIdentifier: NSStringFromClass(SmallAppListHeader.self))
         
         self.collectionView.reloadData()
+        
+        let nc = NotificationCenter.default // Note that default is now a property, not a method call
+        nc.addObserver(forName:Notification.Name(rawValue:"MyNotification"),
+                       object:nil,
+                       queue:nil,
+                       using:catchNotification)
+    }
+    
+    func catchNotification(notification:Notification) -> Void {
+        print("Catch notification")
+        
+        guard let userInfo = notification.userInfo,
+            let isWebUrl = userInfo["weburl"] as? String,
+            let url  = userInfo["url"] as? String else {
+                print("No userInfo found in notification")
+                return
+        }
+        
+        showDemo(url: url, isWebUrl: (isWebUrl == "true"))
+    }
+    
+    
+    private func showDemo(url: String, isWebUrl: Bool) -> Void {
+        
+        if (isWebUrl && !url.isEmpty) {
+            
+            let webVC = GDWebViewController()
+            // MARK: Private Properties
+            
+            webVC.loadURLWithString(url)
+            webVC.toolbar.toolbarTintColor = UIColor.darkGray
+            webVC.toolbar.toolbarBackgroundColor = UIColor.white
+            webVC.toolbar.toolbarTranslucent = false
+            webVC.allowsBackForwardNavigationGestures = true
+            
+            self.present(webVC, animated: true, completion: nil)
+            
+        } else {
+            let videoViewController = DemoViewController()
+            videoViewController.playingUrl = url
+            self.present(videoViewController, animated: true, completion: nil)
+        }
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true;
+    }
+    
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     
     

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EB536881FCF89540058D2DE /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB536871FCF89540058D2DE /* DemoViewController.swift */; };
+		1EB536891FCF89540058D2DE /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB536871FCF89540058D2DE /* DemoViewController.swift */; };
+		1EB5368B1FCF8E4A0058D2DE /* WebViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5368A1FCF8E4A0058D2DE /* WebViewDemoViewController.swift */; };
+		1EB5368C1FCF8E4A0058D2DE /* WebViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5368A1FCF8E4A0058D2DE /* WebViewDemoViewController.swift */; };
+		1EB536901FCF90210058D2DE /* GDWebViewNavigationToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5368E1FCF90210058D2DE /* GDWebViewNavigationToolbar.swift */; };
+		1EB536911FCF90210058D2DE /* GDWebViewNavigationToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5368E1FCF90210058D2DE /* GDWebViewNavigationToolbar.swift */; };
+		1EB536921FCF90210058D2DE /* GDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5368F1FCF90210058D2DE /* GDWebViewController.swift */; };
+		1EB536931FCF90210058D2DE /* GDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB5368F1FCF90210058D2DE /* GDWebViewController.swift */; };
 		1EEBFE941FCF33B900D578C2 /* SmallAppListHolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E4A131F067CD9001A8BEB /* SmallAppListHolderCell.swift */; };
 		1EEBFE951FCF33B900D578C2 /* ScreenShotsHolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A8C2381F0913D0001C98A0 /* ScreenShotsHolderCell.swift */; };
 		1EEBFE961FCF33B900D578C2 /* RatingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C628AFB41F098F5E002645CA /* RatingCollectionViewCell.swift */; };
@@ -50,7 +58,6 @@
 		1EEBFEBC1FCF33B900D578C2 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E4A161F0688CE001A8BEB /* App.swift */; };
 		1EEBFEBD1FCF33B900D578C2 /* FeaturedAppCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D7A691F046F0B00A60799 /* FeaturedAppCardCell.swift */; };
 		1EEBFEBE1FCF33B900D578C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62D7A421F044FC500A60799 /* AppDelegate.swift */; };
-		1EEBFEC01FCF33B900D578C2 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		1EEBFEC21FCF33B900D578C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A4B1F044FC500A60799 /* LaunchScreen.storyboard */; };
 		1EEBFEC31FCF33B900D578C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62D7A491F044FC500A60799 /* Assets.xcassets */; };
 		1EEBFECF1FCF522C00D578C2 /* (null) in Sources */ = {isa = PBXBuildFile; };
@@ -65,7 +72,9 @@
 		344CA2C81FCF4DDD00F1D13E /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C71FCF4DDD00F1D13E /* Department.swift */; };
 		344CA2CA1FCF4F2C00F1D13E /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2C91FCF4F2C00F1D13E /* Company.swift */; };
 		344CA2CC1FCF599E00F1D13E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344CA2CB1FCF599E00F1D13E /* DataManager.swift */; };
+		3C92BDA3C8AE53A368090CCB /* Pods_ironPitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD94F2DDF1EE58B04B50594 /* Pods_ironPitch.framework */; };
 		68045C729709FE5F1E61A904 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
+		B946B8E3DBB634885E5CE5D4 /* Pods_AppStore_iOS_10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */; };
 		C60B83051F0C70C9007EAD68 /* SmallAppListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */; };
 		C60E4A121F066274001A8BEB /* DividerFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E4A111F066274001A8BEB /* DividerFooter.swift */; };
 		C60E4A141F067CD9001A8BEB /* SmallAppListHolderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60E4A131F067CD9001A8BEB /* SmallAppListHolderCell.swift */; };
@@ -114,14 +123,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1EB536871FCF89540058D2DE /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		1EB5368A1FCF8E4A0058D2DE /* WebViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDemoViewController.swift; sourceTree = "<group>"; };
+		1EB5368E1FCF90210058D2DE /* GDWebViewNavigationToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDWebViewNavigationToolbar.swift; sourceTree = "<group>"; };
+		1EB5368F1FCF90210058D2DE /* GDWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDWebViewController.swift; sourceTree = "<group>"; };
 		1EEBFEC91FCF33BA00D578C2 /* ironPitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ironPitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEBFECA1FCF33BA00D578C2 /* AppStore iOS 10 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppStore iOS 10 copy-Info.plist"; path = "/Users/itai.asaf/Downloads/AppStoreiOS11-master/AppStore iOS 10 copy-Info.plist"; sourceTree = "<absolute>"; };
 		1EEBFED71FCF5EF800D578C2 /* DepartmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentViewController.swift; sourceTree = "<group>"; };
 		344CA2C71FCF4DDD00F1D13E /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 		344CA2C91FCF4F2C00F1D13E /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
 		344CA2CB1FCF599E00F1D13E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
-		78F3CE854DCEC0B8D43D301C /* Pods-AppStore iOS 10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.release.xcconfig"; sourceTree = "<group>"; };
-		A4E6BBCAF0ED15650A9C6D74 /* Pods-AppStore iOS 10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.debug.xcconfig"; sourceTree = "<group>"; };
+		4FD94F2DDF1EE58B04B50594 /* Pods_ironPitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ironPitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF46711763B5CC2B9D1D636 /* Pods-AppStore iOS 10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.release.xcconfig"; sourceTree = "<group>"; };
 		C60B83041F0C70C9007EAD68 /* SmallAppListHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAppListHeader.swift; sourceTree = "<group>"; };
 		C60E4A111F066274001A8BEB /* DividerFooter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DividerFooter.swift; sourceTree = "<group>"; };
 		C60E4A131F067CD9001A8BEB /* SmallAppListHolderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallAppListHolderCell.swift; sourceTree = "<group>"; };
@@ -171,6 +184,9 @@
 		C6D1C58A1F04CBE500D70D57 /* GamesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesDataSource.swift; sourceTree = "<group>"; };
 		C6D1C58C1F04CCE800D70D57 /* HeaderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderItem.swift; sourceTree = "<group>"; };
 		C6D1C58F1F04CFE900D70D57 /* HorizontalBigAppCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalBigAppCell.swift; sourceTree = "<group>"; };
+		C78A36D96210D16C8EF60D26 /* Pods-ironPitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch.release.xcconfig"; sourceTree = "<group>"; };
+		D95470E0E682B52860B67A1C /* Pods-AppStore iOS 10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppStore iOS 10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10.debug.xcconfig"; sourceTree = "<group>"; };
+		DF9BF99D7DD76C7D09F29D56 /* Pods-ironPitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ironPitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch.debug.xcconfig"; sourceTree = "<group>"; };
 		F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppStore_iOS_10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -179,7 +195,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEBFEC01FCF33B900D578C2 /* Pods_AppStore_iOS_10.framework in Frameworks */,
+				3C92BDA3C8AE53A368090CCB /* Pods_ironPitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,16 +204,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				68045C729709FE5F1E61A904 /* Pods_AppStore_iOS_10.framework in Frameworks */,
+				B946B8E3DBB634885E5CE5D4 /* Pods_AppStore_iOS_10.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB5368D1FCF90210058D2DE /* GDWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1EB5368E1FCF90210058D2DE /* GDWebViewNavigationToolbar.swift */,
+				1EB5368F1FCF90210058D2DE /* GDWebViewController.swift */,
+			);
+			path = GDWebViewController;
+			sourceTree = "<group>";
+		};
 		3688FC6E5065A47CF9BBC2F9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				F038A0B87F10F00176AD243D /* Pods_AppStore_iOS_10.framework */,
+				4FD94F2DDF1EE58B04B50594 /* Pods_ironPitch.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -205,8 +232,10 @@
 		51A0F1FF459AE20E3DEB23F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A4E6BBCAF0ED15650A9C6D74 /* Pods-AppStore iOS 10.debug.xcconfig */,
-				78F3CE854DCEC0B8D43D301C /* Pods-AppStore iOS 10.release.xcconfig */,
+				D95470E0E682B52860B67A1C /* Pods-AppStore iOS 10.debug.xcconfig */,
+				5EF46711763B5CC2B9D1D636 /* Pods-AppStore iOS 10.release.xcconfig */,
+				DF9BF99D7DD76C7D09F29D56 /* Pods-ironPitch.debug.xcconfig */,
+				C78A36D96210D16C8EF60D26 /* Pods-ironPitch.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -272,10 +301,13 @@
 		C628AFAD1F097AF1002645CA /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
+				1EB5368D1FCF90210058D2DE /* GDWebViewController */,
 				1EEBFED71FCF5EF800D578C2 /* DepartmentViewController.swift */,
 				C62D7A5B1F0459B400A60799 /* TodaysAppsController.swift */,
 				C62D7A5D1F0459CA00A60799 /* GamesAppsController.swift */,
 				C6B78E6A1F0B230E00F111E3 /* UpdatesViewController.swift */,
+				1EB536871FCF89540058D2DE /* DemoViewController.swift */,
+				1EB5368A1FCF8E4A0058D2DE /* WebViewDemoViewController.swift */,
 			);
 			name = Tabs;
 			sourceTree = "<group>";
@@ -425,12 +457,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EEBFEC61FCF33B900D578C2 /* Build configuration list for PBXNativeTarget "ironPitch" */;
 			buildPhases = (
-				1EEBFE921FCF33B900D578C2 /* [CP] Check Pods Manifest.lock */,
+				73E5169D4F6BDE61423D8E67 /* [CP] Check Pods Manifest.lock */,
 				1EEBFE931FCF33B900D578C2 /* Sources */,
 				1EEBFEBF1FCF33B900D578C2 /* Frameworks */,
 				1EEBFEC11FCF33B900D578C2 /* Resources */,
-				1EEBFEC41FCF33B900D578C2 /* [CP] Embed Pods Frameworks */,
-				1EEBFEC51FCF33B900D578C2 /* [CP] Copy Pods Resources */,
+				F4164A463D645DE5671C92B1 /* [CP] Embed Pods Frameworks */,
+				D8E5FD041EAF067D063115F9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -538,37 +570,61 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1EEBFE921FCF33B900D578C2 /* [CP] Check Pods Manifest.lock */ = {
+		241A8A8DBC22C44F40AABCD0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		1EEBFEC41FCF33B900D578C2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZSearchView/AZSearchView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PFWebViewController/PFWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/ReadMoreTextView/ReadMoreTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZSearchView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PFWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReadMoreTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1EEBFEC51FCF33B900D578C2 /* [CP] Copy Pods Resources */ = {
+		73E5169D4F6BDE61423D8E67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ironPitch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8E5FD041EAF067D063115F9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -580,22 +636,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		241A8A8DBC22C44F40AABCD0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppStore iOS 10/Pods-AppStore iOS 10-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F40BC044D4967E2A679765B6 /* [CP] Check Pods Manifest.lock */ = {
@@ -604,13 +645,52 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppStore iOS 10-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4164A463D645DE5671C92B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AZSearchView/AZSearchView.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/BMPlayer/BMPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PFWebViewController/PFWebViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/ReadMoreTextView/ReadMoreTextView.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AZSearchView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BMPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PFWebViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReadMoreTextView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ironPitch/Pods-ironPitch-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -629,11 +709,15 @@
 				1EEBFE981FCF33B900D578C2 /* LGHorizontalLinearFlowLayout.swift in Sources */,
 				1EEBFE991FCF33B900D578C2 /* TodayAppsDataSource.swift in Sources */,
 				1EEBFE9A1FCF33B900D578C2 /* Service.swift in Sources */,
+				1EB5368C1FCF8E4A0058D2DE /* WebViewDemoViewController.swift in Sources */,
+				1EB536891FCF89540058D2DE /* DemoViewController.swift in Sources */,
 				1EEBFE9B1FCF33B900D578C2 /* GamesDataSource.swift in Sources */,
 				1EEBFE9C1FCF33B900D578C2 /* HorizontalBigAppCell.swift in Sources */,
 				1EEBFE9D1FCF33B900D578C2 /* SmallAppCell.swift in Sources */,
 				1EEBFE9E1FCF33B900D578C2 /* RatingsViewCell.swift in Sources */,
 				1EEBFE9F1FCF33B900D578C2 /* OnAppSelectedDelegate.swift in Sources */,
+				1EB536931FCF90210058D2DE /* GDWebViewController.swift in Sources */,
+				1EB536911FCF90210058D2DE /* GDWebViewNavigationToolbar.swift in Sources */,
 				1EEBFEA01FCF33B900D578C2 /* Extension.swift in Sources */,
 				1EEBFEA11FCF33B900D578C2 /* FeaturedAppCellBottomApp.swift in Sources */,
 				1EEBFED41FCF5E6400D578C2 /* Department.swift in Sources */,
@@ -685,11 +769,15 @@
 				344CA2CC1FCF599E00F1D13E /* DataManager.swift in Sources */,
 				C62D7A681F046B5200A60799 /* TodayAppsDataSource.swift in Sources */,
 				C6A8C23E1F091A7C001C98A0 /* Service.swift in Sources */,
+				1EB5368B1FCF8E4A0058D2DE /* WebViewDemoViewController.swift in Sources */,
+				1EB536881FCF89540058D2DE /* DemoViewController.swift in Sources */,
 				C6D1C58B1F04CBE500D70D57 /* GamesDataSource.swift in Sources */,
 				C6D1C5901F04CFE900D70D57 /* HorizontalBigAppCell.swift in Sources */,
 				C6126AB61F065B57000493BA /* SmallAppCell.swift in Sources */,
 				C628AFB31F098F43002645CA /* RatingsViewCell.swift in Sources */,
 				C6B8C9D61F07E22400391BBD /* OnAppSelectedDelegate.swift in Sources */,
+				1EB536921FCF90210058D2DE /* GDWebViewController.swift in Sources */,
+				1EB536901FCF90210058D2DE /* GDWebViewNavigationToolbar.swift in Sources */,
 				C62D7A551F04568900A60799 /* Extension.swift in Sources */,
 				C666F5021F06FAB600F6771C /* FeaturedAppCellBottomApp.swift in Sources */,
 				C64A1BD31F04E64800894D91 /* LargePhotoHorizontalCollectionViewCell.swift in Sources */,
@@ -744,7 +832,7 @@
 /* Begin XCBuildConfiguration section */
 		1EEBFEC71FCF33B900D578C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4E6BBCAF0ED15650A9C6D74 /* Pods-AppStore iOS 10.debug.xcconfig */;
+			baseConfigurationReference = DF9BF99D7DD76C7D09F29D56 /* Pods-ironPitch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -761,7 +849,7 @@
 		};
 		1EEBFEC81FCF33B900D578C2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78F3CE854DCEC0B8D43D301C /* Pods-AppStore iOS 10.release.xcconfig */;
+			baseConfigurationReference = C78A36D96210D16C8EF60D26 /* Pods-ironPitch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -872,7 +960,7 @@
 		};
 		C62D7A521F044FC500A60799 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4E6BBCAF0ED15650A9C6D74 /* Pods-AppStore iOS 10.debug.xcconfig */;
+			baseConfigurationReference = D95470E0E682B52860B67A1C /* Pods-AppStore iOS 10.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -889,7 +977,7 @@
 		};
 		C62D7A531F044FC500A60799 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 78F3CE854DCEC0B8D43D301C /* Pods-AppStore iOS 10.release.xcconfig */;
+			baseConfigurationReference = 5EF46711763B5CC2B9D1D636 /* Pods-AppStore iOS 10.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

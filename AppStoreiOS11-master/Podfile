@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+# platform :ios, '11.0'
 
 target 'AppStore iOS 10' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -14,4 +14,19 @@ target 'AppStore iOS 10' do
   pod 'AZSearchView'
   pod 'PFWebViewController', '~> 1.1.1'
   pod 'BMPlayer', '~> 0.9.1'
+end
+
+target 'ironPitch' do
+    # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for AppStore iOS 10
+    pod "LBTAComponents"
+    pod 'Alamofire', '~> 4.4'
+    pod 'Kingfisher', '~> 3.0'
+    pod 'Cosmos', '~> 10.0'
+    pod 'ReadMoreTextView'
+    pod 'AZSearchView'
+    pod 'PFWebViewController', '~> 1.1.1'
+    pod 'BMPlayer', '~> 0.9.1'
 end

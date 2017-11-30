@@ -44,8 +44,8 @@ class GeneralHeaderCell: DatasourceCell {
     
     var avaImg : UIImageView = {
         let img = UIImageView()
-        img.image = UIImage(named: "geometrics")
-        img.layer.cornerRadius = 20
+        img.image = UIImage(named: "is_small_icon")
+        img.layer.cornerRadius = 10
         img.clipsToBounds = true
         return img
     }()

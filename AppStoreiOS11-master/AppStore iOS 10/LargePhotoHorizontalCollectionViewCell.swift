@@ -44,6 +44,33 @@ class LargePhotoHorizontalCollectionViewCell: DatasourceCell, UICollectionViewDe
         collectionView.dataSource = self
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        setSelectedApp(app: self.appData[indexPath.row])
+    }
+    
+    func setSelectedApp(app: App?) {
+        if let webviewDemo = app!.appWebViewDemo {
+            if (!webviewDemo.isEmpty) {
+                let nc = NotificationCenter.default
+                nc.post(name:Notification.Name(rawValue:"MyNotification"),
+                        object: nil,
+                        userInfo: ["url":webviewDemo, "weburl":"true"])
+                return;
+            }
+        }
+            
+        if let videoDemo = app!.appVideoDemo {
+            if (!videoDemo.isEmpty) {
+                let nc = NotificationCenter.default
+                nc.post(name:Notification.Name(rawValue:"MyNotification"),
+                        object: nil,
+                        userInfo: ["url":videoDemo, "weburl":"false"])
+                return;
+            }
+        }
+    }
+
+    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as? HorizontalBigAppCell{
