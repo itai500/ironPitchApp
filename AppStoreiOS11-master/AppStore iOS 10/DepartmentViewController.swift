@@ -11,6 +11,7 @@ import BMPlayer
 import UIKit
 import AVKit
 import AVFoundation
+import SimpleImageViewer
 
 class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, OnAppSelectedDelegate, GDWebViewControllerDelegate {
     
@@ -137,9 +138,19 @@ class DepartmentViewController:  UIViewController, UICollectionViewDelegate, UIC
     }
     
     func setSelectedApp(app: App) {
-        let appDetailVC = AppDetailViewController()
-        appDetailVC.app = app
-        self.show(appDetailVC, sender: appDetailVC)
+//        let appDetailVC = AppDetailViewController()
+//        appDetailVC.app = app
+//        self.show(appDetailVC, sender: appDetailVC)
+        let configuration = ImageViewerConfiguration { config in
+            let imgBG = UIImageView()
+            imgBG.image = #imageLiteral(resourceName: "landscape")
+            UIApplication.shared.keyWindow?.rootViewController?.view .addSubview(imgBG)
+            config.imageView = imgBG
+        }
+        
+        present(ImageViewerController(configuration: configuration), animated: true)
+        
+        //present(imageViewerController, animated: true)
     }
     
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {

@@ -15,7 +15,7 @@ class SmallAppCell: DatasourceCell {
 
     var app: App? {
         didSet{
-            smallTitle.text = app?.appStory
+            smallTitle.text = ""
             appDetails.attributedText = getAttributedStringForDesc(app: app!)
             
             if let url = app?.appPhoto{
