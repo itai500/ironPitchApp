@@ -86,6 +86,7 @@ class FeaturedAppCellWithBigAppIcon: FeaturedAppCardCell {
         imageBg.addSubview(appDetails)
         imageBg.addSubview(getBtn)
         imageBg.addSubview(bigTitle)
+        getBtn.isHidden = true
         
         smallTitle.isHidden = true
         smallDescription.isHidden = true

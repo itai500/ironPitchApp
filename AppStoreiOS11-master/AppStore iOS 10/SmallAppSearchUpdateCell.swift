@@ -16,7 +16,7 @@ class SmallAppSearchUpdateCell: SmallAppCell {
     
     override func setupViews() {
         super.setupViews()
-        seeAllText.text = ""
+        seeAllText.text = "check"
         
         divider.isHidden = true
         divider.anchor(nil, left: imageBg.rightAnchor, bottom: bottomAnchor, right: rightAnchor, topConstant: 0, leftConstant: 16, bottomConstant: 0, rightConstant: 0, widthConstant: 0, heightConstant: 0.5)

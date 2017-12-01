@@ -20,6 +20,8 @@ struct App {
     var screenShots: [String]?
     var appRating: Double?
     var appReviews: [Review]?
+    var appWebViewDemo: String?
+    var appVideoDemo:String?
     
     init() {
         
@@ -34,6 +36,19 @@ struct App {
         self.appStory = appStory
         self.appPhoto = appPhoto
         self.screenShots = screenShots
+    }
+    
+    init(appName: String, appDesc: String, appID: Int, appCategory: String, appPrice: Int, appStory: String, appPhoto: String, screenShots: [String], appWebViewDemo: String, appVideoDemo: String) {
+        self.appName = appName
+        self.appDesc = appDesc
+        self.appID = appID
+        self.appCategory = appCategory
+        self.appPrice = appPrice
+        self.appStory = appStory
+        self.appPhoto = appPhoto
+        self.screenShots = screenShots
+        self.appVideoDemo = appVideoDemo
+        self.appWebViewDemo = appWebViewDemo
     }
     
     

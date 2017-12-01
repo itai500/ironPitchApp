@@ -15,17 +15,17 @@ class SmallAppCell: DatasourceCell {
 
     var app: App? {
         didSet{
-            smallTitle.text = app?.appStory
+            smallTitle.text = ""
             appDetails.attributedText = getAttributedStringForDesc(app: app!)
             
-            if let url = app?.appPhoto{
-                let url = URL(string: url)
-                imageBg.kf.setImage(with: url)
+            if let name = app?.appName{
+                let imageName = DataManager.sharedInstance.getKeyPointsIcon(appName: name);
+                let image: UIImage = UIImage(named: imageName)!
+                imageBg.image = image
             }
 
         }
     }
-    
     
     
     var smallTitle : UILabel = {
@@ -109,6 +109,7 @@ class SmallAppCell: DatasourceCell {
         addSubview(imageBg)
         addSubview(appDetails)
         addSubview(getBtn)
+        getBtn.isHidden = true
         addSubview(inAppText)
         addSubview(divider)
         

@@ -129,9 +129,10 @@ class Service: NSObject {
             
                         for departmentData in departmentsData{
                             var department = Department()
-                            department.data = departmentData
-            
-                            departments.setValue(department, forKey: departmentData.key)
+                            if let data = departmentData.value as? Dictionary<String, Any> {
+                                department.data = data
+                                departments.setValue(department, forKey: departmentData.key)
+                            }
                         }
                        company.departments = departments
                     }

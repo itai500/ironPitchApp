@@ -25,15 +25,15 @@ class TabsController: UITabBarController, UITabBarControllerDelegate {
         
         // Create Tab one
         let tabOne = TodaysAppsController()
-        let tabOneBarItem = UITabBarItem(title: "Today", image: UIImage(named: "today"), selectedImage: UIImage(named: "today")?.maskWithColor(color: .blue))
+        let tabOneBarItem = UITabBarItem(title: "Pitch", image: UIImage(named: "today"), selectedImage: UIImage(named: "today")?.maskWithColor(color: .blue))
         
         // Create Tab two
         let tabTwo = GamesAppsController()
-        let tabTwoBarItem = UITabBarItem(title: "Games", image: UIImage(named: "games"), selectedImage: UIImage(named: "games")?.maskWithColor(color: .blue))
+        let tabTwoBarItem = UITabBarItem(title: "Play", image: UIImage(named: "games"), selectedImage: UIImage(named: "games")?.maskWithColor(color: .blue))
         
-        // Create Tab three
-        let tabThree = GamesAppsController()
-        let tabThreeBarItem = UITabBarItem(title: "Apps", image: UIImage(named: "apps"), selectedImage: UIImage(named: "apps")?.maskWithColor(color: .blue))
+//        // Create Tab three
+//        let tabThree = GamesAppsController()
+//        let tabThreeBarItem = UITabBarItem(title: "Apps", image: UIImage(named: "apps"), selectedImage: UIImage(named: "apps")?.maskWithColor(color: .blue))
         
 //        // Create Tab 4
 //        let tabFour = UpdatesViewController()
@@ -45,13 +45,12 @@ class TabsController: UITabBarController, UITabBarControllerDelegate {
         
         tabOne.tabBarItem = tabOneBarItem
         tabTwo.tabBarItem = tabTwoBarItem
-        tabThree.tabBarItem = tabThreeBarItem
 //        tabFour.tabBarItem = tabFourBarItem
 //        tabFive.tabBarItem = tabFiveBarItem
         
         self.automaticallyAdjustsScrollViewInsets = false
 
-        self.viewControllers = [tabOne, tabTwo, tabThree]
+        self.viewControllers = [tabOne, tabTwo]
         
         hideNavBar()
         
@@ -92,7 +91,7 @@ class TabsController: UITabBarController, UITabBarControllerDelegate {
         configApp.headerItem = headerItemApps
         configApp.subHeaderTitle = "New Apps we love"
         
-        tabThree.config = configApp
+//        tabThree.config = configApp
         
     }
     

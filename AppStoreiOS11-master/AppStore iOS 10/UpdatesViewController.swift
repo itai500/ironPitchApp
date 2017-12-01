@@ -9,6 +9,7 @@
 import UIKit
 import AZSearchView
 
+
 class UpdatesViewController: AppListViewController {
 
     override func viewDidLoad() {
